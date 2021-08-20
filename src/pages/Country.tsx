@@ -118,6 +118,18 @@ const CountryWrapper = styled.div`
   gap: 0px 0px;
   grid-template-areas: "country-flag country-info";
   grid-area: country-row;
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin: 0 0.5em;
+    h1 {
+      margin-top: 1em;
+    }
+  }
 `;
 const Flag = styled.div`
   grid-area: country-flag;
