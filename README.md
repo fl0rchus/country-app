@@ -1,7 +1,5 @@
 # Frontend Mentor - REST Countries API with color theme switcher solution
 
-## Welcome! 👋
-
 ### Features
 
 - See all countries from the API on the homepage
